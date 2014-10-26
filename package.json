@@ -1,25 +1,26 @@
 {
-	"name": "vasync",
-	"version": "1.6.1",
-	"description": "utilities for observable asynchronous control flow",
-	"main": "./lib/vasync.js",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/davepacheco/node-vasync.git"
-	},
-	"scripts": {
-		"test": "./node_modules/.bin/tap tests/ && ./node_modules/.bin/nodeunit tests/compat.js"
-	},
-	"devDependencies": {
-		"tap": "~0.4.8",
-		"nodeunit": "0.8.7"
-	},
-	"dependencies": {
-		"jsprim": "0.6.1",
-		"verror": "1.1.0"
-	},
-	"engines": [
-		"node >=0.6.0"
-	],
-	"license": "MIT"
+  "name": "vasync",
+  "version": "1.6.1",
+  "description": "utilities for observable asynchronous control flow",
+  "main": "./lib/vasync.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davepacheco/node-vasync.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/tap tests/ && ./node_modules/.bin/nodeunit tests/compat.js"
+  },
+  "devDependencies": {
+    "tap": "~0.4.8",
+    "nodeunit": "0.8.7"
+  },
+  "dependencies": {
+    "jsprim": "0.6.1",
+    "verror": "1.1.0",
+    "lodash": "~2.4.1"
+  },
+  "engines": [
+    "node >=0.6.0"
+  ],
+  "license": "MIT"
 }
